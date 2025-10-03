@@ -34,14 +34,16 @@ By leveraging artificial intelligence and modern web technologies, the system ai
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript, Chart.js, Bootstrap (optional)  
-- **Backend**: Python, Flask, Flask Blueprints, Flask-Login  
-- **AI Integration**: OpenAI GPT API (Q&A, summarization), Whisper API / SpeechRecognition + ffmpeg / moviepy (video transcription)  
-- **Database**: MongoDB  
-- **Notifications**: Python threading/schedule, browser alerts  
-- **Deployment**: Render, Heroku, PythonAnywhere  
-- **Version Control**: Git + GitHub  
-- **Config Management**: `.env` for API keys  
+| Layer        | Technologies                                                                 |
+|--------------|------------------------------------------------------------------------------|
+| Frontend     | HTML5, CSS3, JavaScript, Chart.js, Bootstrap (optional)                     |
+| Backend      | Python, Flask, Flask Blueprints, Flask-Login                                 |
+| AI Integration | OpenAI GPT API (Q&A, summarization), Whisper API or SpeechRecognition + ffmpeg/moviepy |
+| Database     | MongoDB                                                                      |
+| Notifications| Python threading/schedule or browser alerts                                  |
+| Deployment   | Render, Heroku, PythonAnywhere                                               |
+| Version Control | Git + GitHub                                                              |
+| Config Management | `.env` for storing API keys  
 
 ---
 
@@ -55,7 +57,7 @@ By leveraging artificial intelligence and modern web technologies, the system ai
    ```bash
    pip install -r requirements.txt
 3. **Set up environment variables**<br>
-   Create a .env file in the root directory and add your API keys (e.g., OpenAI API key, MongoDB URI).
+   Create a `.env` file in the root directory and add your API keys (e.g., OpenAI API key, MongoDB URI).
 4. **Run the application**
    ```bash
    flask run
