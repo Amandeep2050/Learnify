@@ -1,4 +1,4 @@
-# 📘 Learnify
+# 📘 BrainWave
 
 **AI-powered Smart Study Assistant** to help students effectively plan, track, and enhance their study routines.  
 Learnify leverages artificial intelligence and modern web technologies to provide a holistic learning experience with **personalized recommendations, instant doubt resolution, efficient task management, automated note summarization, quiz-based learning, and transcription of video lectures into summarized notes.**
